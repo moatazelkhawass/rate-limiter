@@ -1,8 +1,11 @@
 **Airtasker Challenge**
+
 _Objective:_
+
 This application is a rate-limiter module that stops a particular requestor from making too many http requests within a particular period of time.
 
 _Solution:_
+
 The module is implemented in Java and the test application is a Spring boot application. The solution meant to be fairly simple so that it uses mainly the standard Java libraries with no depencies on other libraries. and meant to be contained only in plain Java classes, so if necessary it could be packaged into other applications.
 
 * Package `throttler`:
