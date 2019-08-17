@@ -1,7 +1,0 @@
-com\challenge\throttling\simpleratelimiter\exception\CustomizedExceptionHandler.class
-com\challenge\throttling\simpleratelimiter\security\SecurityConfiguration.class
-com\challenge\throttling\simpleratelimiter\throttler\RateLimiterManager.class
-com\challenge\throttling\simpleratelimiter\models\ExceptionResponseModel.class
-com\challenge\throttling\simpleratelimiter\controllers\ThrottlingController.class
-com\challenge\throttling\simpleratelimiter\SimpleRateLimiterApplication.class
-com\challenge\throttling\simpleratelimiter\throttler\RateLimiter.class
