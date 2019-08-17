@@ -1,7 +1,5 @@
 package com.challenge.throttling.simpleratelimiter.throttler;
 
-import org.springframework.stereotype.Service;
-
 import java.time.LocalDateTime;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -19,7 +17,7 @@ public class RateLimiter {
     private static final int SECONDS_PER_MINUTE = 60;
     private static final int MINUTES_PER_HOUR = 60;
 
-    public static RateLimiter create(int permits, TimeUnit timePeriod) {
+    static RateLimiter create(int permits, TimeUnit timePeriod) {
         RateLimiter limiter = new RateLimiter(permits, timePeriod);
         limiter.schedulePermitReload();
         limiter.initializationTime = LocalDateTime.now();

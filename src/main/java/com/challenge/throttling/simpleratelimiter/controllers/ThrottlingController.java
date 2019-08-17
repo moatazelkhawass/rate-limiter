@@ -39,7 +39,7 @@ public class ThrottlingController {
 
         String username = getUserNameFromContext();
 
-        logger.info(String.format("Logged in user is: %s", username));
+        logger.info(String.format("Invocation to throttledResource by logged in user: %s", username));
 
         RateLimiter rateLimiter = processor.getRateLimiter(username);
         int remainingTime = rateLimiter.tryAcquire();

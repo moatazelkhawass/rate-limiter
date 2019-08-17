@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(ThrottlingController.class)
-public class ThrottlingControllerTest {
+public class ThrottlingControllerTests {
     @Autowired
     private MockMvc mvc;
 
